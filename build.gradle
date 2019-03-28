@@ -1,0 +1,28 @@
+apply plugin: 'eclipse'
+apply plugin: 'java'
+
+sourceCompatibility = '1.8'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  annotationProcessor 'net.karneim:pojobuilder:4.2.3'
+  compile 'net.karneim:pojobuilder:4.2.3:annotations'
+}
+
+eclipse.jdt.file.withProperties { Properties properties ->
+  properties['org.eclipse.jdt.core.compiler.processAnnotations'] = 'enabled'
+}
+
+task eclipseFactorypath doLast {
+  file('.factorypath').withWriter {
+    new groovy.xml.MarkupBuilder(it).'factorypath' {
+      project.configurations.annotationProcessor.each { dep ->
+        factorypathentry(kind:'EXTJAR', id:dep.absolutePath, enabled: true, runInBatchMode:false)
+      }
+    }
+  }
+}
+tasks.eclipse.dependsOn eclipseFactorypath
