@@ -1,4 +1,4 @@
 <factorypath>
-  <factorypathentry kind='EXTJAR' id='C:\Users\UffmannA\.gradle\caches\modules-2\files-2.1\net.karneim\pojobuilder\4.2.3\5f9dee40bfb7719ba842c6d8d7b77f1f0c1a6639\pojobuilder-4.2.3.jar' enabled='true' runInBatchMode='false' />
-  <factorypathentry kind='EXTJAR' id='C:\Users\UffmannA\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.5.0\81241ff7078ef14f42ea2a8995fa09c096256e6b\javawriter-2.5.0.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='WKSPJAR' id='eclipse-bug-annotation-processing-NullPointerException/libs/net/karneim/pojobuilder/4.2.3/pojobuilder-4.2.3.jar' enabled='true' runInBatchMode='false' />
+  <factorypathentry kind='WKSPJAR' id='eclipse-bug-annotation-processing-NullPointerException/libs/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar' enabled='true' runInBatchMode='false' />
 </factorypath>

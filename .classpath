@@ -7,12 +7,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry kind="lib" path="C:/Users/UffmannA/.gradle/caches/modules-2/files-2.1/net.karneim/pojobuilder/4.2.3/54f5cc4de5c3a63b6a48abaf799d1f1d7c473a76/pojobuilder-4.2.3-annotations.jar" sourcepath="C:/Users/UffmannA/.gradle/caches/modules-2/files-2.1/net.karneim/pojobuilder/4.2.3/d37ea129e24a1a30b64256d04e5fcdf1e3a9af33/pojobuilder-4.2.3-sources.jar">
+	<classpathentry kind="lib" path="libs/net/karneim/pojobuilder/4.2.3/pojobuilder-4.2.3-annotations.jar" sourcepath="libs/net/karneim/pojobuilder/4.2.3/pojobuilder-4.2.3-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/UffmannA/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/81241ff7078ef14f42ea2a8995fa09c096256e6b/javawriter-2.5.0.jar" sourcepath="C:/Users/UffmannA/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.5.0/1b2a0925ff06220c0261b6fd468183cd9e9a9a47/javawriter-2.5.0-sources.jar">
+	<classpathentry kind="lib" path="libs/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" sourcepath="libs/com/squareup/javawriter/2.5.0/javawriter-2.5.0-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
